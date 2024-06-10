@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile_img.jpg';
 
 const About = () => {
     return (
-        <div className='about'>
+        <div id='About' className='about'>
             <div className="about-title">
                 <h2>About me</h2>
                 <img className='title-img' src={theme_pattern} alt="" />
