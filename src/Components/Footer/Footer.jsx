@@ -36,7 +36,7 @@ const Footer = () => {
                 Swal.fire({
                     position: 'center',
                     icon: 'success',
-                    title: 'Subscription successful!',
+                    title: 'Thanks for your subscribe',
                     showConfirmButton: false,
                     timer: 1500
                 });
@@ -78,9 +78,9 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p className="footer-bottom-left">© 2024 Yasir Yousuf Rimon. All rights reserved.</p>
                 <div className="footer-bottom-right">
-                    <a href="https://www.facebook.com/yyrimon" target="_blank"><FaFacebook /></a>
-                    <a href="https://www.linkedin.com/in/yasiryousufrimon/" target="_blank"><FaLinkedin /></a>
-                    <a href="https://github.com/rimonyousuf" target="_blank"><FaGithub /></a>
+                    <a href="https://www.facebook.com/yyrimon" target="_blank"><FaFacebook className='facebook' /></a>
+                    <a href="https://www.linkedin.com/in/yasiryousufrimon/" target="_blank"><FaLinkedin className='linkedIn' /></a>
+                    <a href="https://github.com/rimonyousuf" target="_blank"><FaGithub className='github' /></a>
                 </div>
             </div>
         </div>

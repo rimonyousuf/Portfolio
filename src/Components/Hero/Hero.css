@@ -68,7 +68,7 @@
 /* For mobile responsive */
 @media screen and (min-width: 350px) and (max-width: 768px){
     .hero img{
-        margin-bottom: 120px;
+        margin-top: 120px;
         width: 260px;
         height: 290px;
     }

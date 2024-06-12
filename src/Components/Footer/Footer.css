@@ -61,8 +61,28 @@
 
 .footer-bottom-right{
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin-bottom: 50px;
+}
+
+.facebook{
+    font-size: 35px;
+    color: #1877F2;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.linkedIn{
+    font-size: 35px;
+    color: #0A66C2 ;
+    background-color: #ffffff;
+}
+
+.github{
+    font-size: 35px;
+    color: #181717;
+    background-color: #ffffff;
+    border-radius: 50%;
 }
 
 .footer-email-input:hover{
@@ -72,4 +92,22 @@
 .footer-subscribe:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+/* For mobile responsive */
+@media screen and (min-width: 350px) and (max-width: 768px){
+    .footer{
+        margin: 50px 70px;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
 }
