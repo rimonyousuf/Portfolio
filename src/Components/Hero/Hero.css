@@ -48,10 +48,12 @@
     cursor: pointer;
 }
 
-.hero-resume{
+.hero-resume a{
     padding: 25px 75px;
     border-radius: 50px;
     border: 2px solid #FFF;
+    text-decoration: none;
+    color: whitesmoke;
     cursor: pointer;
 }
 
@@ -59,6 +61,45 @@
     border: 2px solid white;
 }
 
-.hero-resume:hover{
+.hero-resume a:hover{
     border-color: #B415FF;
+}
+
+/* For mobile responsive */
+@media screen and (min-width: 350px) and (max-width: 768px){
+    .hero img{
+        margin-bottom: 120px;
+        width: 260px;
+        height: 290px;
+    }
+
+    .hero h2{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .hero p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .hero-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+
+    .hero-resume a{
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
 }
