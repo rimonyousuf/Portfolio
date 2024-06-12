@@ -74,14 +74,13 @@
     font-size: 20px;
     padding: 10px 20px;
     background: linear-gradient(to right, #f28d4e, #f95a11);
-    color: #000;
+    color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .overlay a:hover {
     background: linear-gradient(to right, #f95a11, #f28d4e);
-    color: #fff;
 }
 
 /* For mobile responsive */
