@@ -119,7 +119,7 @@
 }
 
 /* For mobile responsive */
-@media screen and (min-width: 350px) and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .contact{
         gap: 50px;
         margin: 50px 70px;
@@ -128,12 +128,12 @@
 
     .contact-title h2{
         padding: 0;
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 600;
     }
 
     .contact-title img{
-        width: 130px;
+        width: 90px;
         margin-right: -20px;
     }
 
@@ -142,37 +142,38 @@
     }
 
     .contact-left h2{
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .contact-left p{
-        font-size: 18px;
+        font-size: 16px;
+        width: 90%;
     }
 
     .contact-detail{
-        gap: 20px;
+        gap: 10px;
     }
 
     .contact-detail img{
-        width: 25px;
+        width: 20px;
     }
 
     .contact-right label{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .contact-right input{
-        width: 100%;
-        font-size: 20px;
+        width: 90%;
+        font-size: 18px;
     }
 
     .contact-right textarea{
-        width: 95%;
-        font-size: 20px;
+        width: 80%;
+        font-size: 18px;
     }
 
     .contact-submit{
-        font-size: 20px;
-        padding: 15px 40px;
+        font-size: 18px;
+        padding: 10px 30px;
     }
 }

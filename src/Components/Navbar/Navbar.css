@@ -57,9 +57,9 @@
 }
 
 /* For mobile responsive */
-@media screen and (min-width: 350px) and (max-width: 768px){
+@media only screen and (max-width: 668px){
     .navbar{
-        margin: 20px 50px;
+        margin: 20px 10px;
     }
 
     .nav-connect{
